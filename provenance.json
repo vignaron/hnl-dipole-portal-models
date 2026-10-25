@@ -1,0 +1,85 @@
+{
+  "status": "local release candidate, not published",
+  "files": [
+    {
+      "file": "feynrules/BSM_GI_UFO.fr",
+      "sha256": "b77055870c6d75d13dbaf143cf3541052f8028c0ee2f0da2afdb9a0ef353ccef",
+      "origin_role": "FeynRules source used for the GI UFO export; inherited SM metadata retained in this candidate"
+    },
+    {
+      "file": "feynarts-feyncalc/dipole_GI_FA.mod",
+      "sha256": "7ab6acb2ff234ecaa0c9e56251232c4b85d74a5f7d519e86a9fc5329a9eb4f47",
+      "origin_role": "FeynCalc-patched FeynArts model used in the loop calculations"
+    },
+    {
+      "file": "feynarts-feyncalc/dipole_GI_FA.gen",
+      "sha256": "9ee2151fcbe43d5f4cd0b79e16dd93038ade4eaff5d608994fc472913440dde2",
+      "origin_role": "FeynCalc-patched FeynArts model used in the loop calculations"
+    },
+    {
+      "file": "ufo/dipole_GI_UFO/write_param_card.py",
+      "sha256": "e18c4017bd311d722b72ea4e890d071475c2ef38fbd573a2be0f4e60c3090d8b",
+      "origin_role": "Python-3-adapted UFO copy used for the MadGraph contact-vertex check"
+    },
+    {
+      "file": "ufo/dipole_GI_UFO/couplings.py",
+      "sha256": "bde5add1544b65f663eeb297daf424118b6eb520eab202dd18ca19d4ee584a20",
+      "origin_role": "Python-3-adapted UFO copy used for the MadGraph contact-vertex check"
+    },
+    {
+      "file": "ufo/dipole_GI_UFO/propagators.py",
+      "sha256": "a31ac4cdaff45017590f6960b00ed022770285d6e93032a2dd2b5f85819d01d3",
+      "origin_role": "Python-3-adapted UFO copy used for the MadGraph contact-vertex check"
+    },
+    {
+      "file": "ufo/dipole_GI_UFO/lorentz.py",
+      "sha256": "cfb51f4be0e6e2dcee5f00e91371539ff69417a070d780de1ea200f22066466a",
+      "origin_role": "Python-3-adapted UFO copy used for the MadGraph contact-vertex check"
+    },
+    {
+      "file": "ufo/dipole_GI_UFO/__init__.py",
+      "sha256": "4bbcaba20fdb9f91b09f2f3dbb2a594598c7522cfdf044c34265f02c992b030c",
+      "origin_role": "Python-3-adapted UFO copy used for the MadGraph contact-vertex check"
+    },
+    {
+      "file": "ufo/dipole_GI_UFO/CT_couplings.py",
+      "sha256": "9c4be25511d5c6d0f857c4a0d907f2601675f669047b5acd6d34707d47ed0930",
+      "origin_role": "Python-3-adapted UFO copy used for the MadGraph contact-vertex check"
+    },
+    {
+      "file": "ufo/dipole_GI_UFO/particles.py",
+      "sha256": "3b554e6e35a8491166b891a4b01221066d8c84c9f4c0549ccd79b9deeb6f3ff9",
+      "origin_role": "Python-3-adapted UFO copy used for the MadGraph contact-vertex check"
+    },
+    {
+      "file": "ufo/dipole_GI_UFO/object_library.py",
+      "sha256": "77284f6509d9cf07e44b55fa585a0b29479bcfad27ba6dc32e759850e710ef04",
+      "origin_role": "Python-3-adapted UFO copy used for the MadGraph contact-vertex check"
+    },
+    {
+      "file": "ufo/dipole_GI_UFO/function_library.py",
+      "sha256": "baf8f8f8a99f62559d2dfa539d0e411b0afc2d59d83f2880d71a4ec02fcb9bed",
+      "origin_role": "Python-3-adapted UFO copy used for the MadGraph contact-vertex check"
+    },
+    {
+      "file": "ufo/dipole_GI_UFO/parameters.py",
+      "sha256": "1bada09f408ae4d134bce34955fd39849b05fecca6b42fd420b9320b215ba98f",
+      "origin_role": "Python-3-adapted UFO copy used for the MadGraph contact-vertex check"
+    },
+    {
+      "file": "ufo/dipole_GI_UFO/coupling_orders.py",
+      "sha256": "3c8931bc64066e35adbf6c28f74d182ddf12605626367a090553001185466729",
+      "origin_role": "Python-3-adapted UFO copy used for the MadGraph contact-vertex check"
+    },
+    {
+      "file": "ufo/dipole_GI_UFO/vertices.py",
+      "sha256": "26c0fa53bab750f80385a05efd8bb13f209f56758ec6858c9a49c0a045abad09",
+      "origin_role": "Python-3-adapted UFO copy used for the MadGraph contact-vertex check"
+    },
+    {
+      "file": "validation/photon-higgs-test.json",
+      "sha256": "f69774cb6e6e824019f54924f06e8159518a6c43add9fc370662d88ecedeb027",
+      "origin_role": "Recorded numerical contact-vertex check; not a new run"
+    }
+  ]
+}

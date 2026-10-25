@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite the associated physics paper and the versioned model release when available."
+type: software
+title: "Gauge-invariant HNL dipole portal models"
+authors:
+  - family-names: Vignaroli
+    given-names: Natascia
+abstract: "FeynRules source and FeynArts/UFO exports for a Majorana HNL with gauge-invariant dipole interactions. Local release candidate."
