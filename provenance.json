@@ -1,10 +1,10 @@
 {
-  "status": "private GitHub release candidate; no public release",
+  "status": "Version 1.0.0 files prepared; public release and archive recorded separately",
   "files": [
     {
       "file": "feynrules/BSM_GI_UFO.fr",
-      "sha256": "9dd393de28216cca9bf6b09d4ba87c40194992212daff9b11c20e3358c4240e7",
-      "origin_role": "FeynRules source used for the GI UFO export, with author/institution/date/repository metadata updated and introductory SM comments removed on 2026-10-25; physics definitions unchanged",
+      "sha256": "173dad93b7a031d8b29a681bb9bedcfea1bbe86f2a32acf90bf61a7a9d837a59",
+      "origin_role": "FeynRules source used for the GI UFO export, with author/institution/date/repository metadata updated and introductory SM comments removed on 2026-10-25; physics definitions unchanged; model version metadata set to 1.0.0",
       "original_export_source_sha256": "b77055870c6d75d13dbaf143cf3541052f8028c0ee2f0da2afdb9a0ef353ccef"
     },
     {
