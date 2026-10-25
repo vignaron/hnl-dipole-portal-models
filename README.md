@@ -1,6 +1,6 @@
 # Gauge-invariant HNL dipole portal models
 
-Local release candidate for the FeynRules, FeynArts and UFO implementations used by Natascia Vignaroli. Not yet a public release. No repository URL or DOI has been assigned.
+Private release candidate for the FeynRules, FeynArts and UFO implementations used by Natascia Vignaroli. Not yet a public release. Repository: https://github.com/vignaron/hnl-dipole-portal-models. No release DOI has been assigned.
 
 ## Physics and conventions
 
@@ -31,7 +31,7 @@ For FeynCalc/FeynArts, copy the model pair into the FeynArts `Models` directory,
 
 ## Provenance and credit
 
-The BSM dipole extension is by Natascia Vignaroli. The source incorporates the FeynRules Standard Model implementation credited to N. Christensen, C. Duhr and B. Fuks. Generated files still contain inherited SM metadata. Those version/date/author fields are not a description of the BSM extension's authorship or release history. See the release checklist before redistribution.
+The BSM dipole extension is by Natascia Vignaroli. The source incorporates the FeynRules Standard Model implementation credited to N. Christensen, C. Duhr and B. Fuks. The FeynRules source identifies Natascia Vignaroli as author of the dipole extension, with affiliation Universita' del Salento and date 25 October 2026. Its introductory SM comments and historical changelog have been removed; the SM implementation credit is retained here. Generated exports still contain inherited SM metadata. Those version/date/author fields are not a description of the BSM extension's authorship or release history. See the release checklist before redistribution.
 
 The current manuscript is *Indirect probes of heavy neutral leptons through the dipole portal at FCC-ee* (in preparation). The direct-search theory is discussed in N. Vignaroli, *New avenues for the neutrino dipole portal exploration at the energy frontier*, JHEP 10 (2025) 125, arXiv:2507.01130. The present files are not claimed to be the byte-identical exports used for that publication.
 
