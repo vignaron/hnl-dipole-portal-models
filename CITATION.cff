@@ -5,4 +5,5 @@ title: "Gauge-invariant HNL dipole portal models"
 authors:
   - family-names: Vignaroli
     given-names: Natascia
-abstract: "FeynRules source and FeynArts/UFO exports for a Majorana HNL with gauge-invariant dipole interactions. Local release candidate."
+abstract: "FeynRules source and FeynArts/UFO exports for a Majorana HNL with gauge-invariant dipole interactions. Private release candidate."
+repository-code: "https://github.com/vignaron/hnl-dipole-portal-models"
