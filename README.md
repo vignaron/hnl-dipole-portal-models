@@ -21,6 +21,8 @@ This model is NOT an export of three independent flavour-aligned HNLs. At quadra
 - `provenance.json`: hashes and origin roles of copied files.
 - `docs/RELEASE-CHECKLIST.md`: tasks before public release.
 
+See [Usage and provenance](docs/USAGE-AND-PROVENANCE.md) for parameter cards, regeneration settings, software versions and validation limits.
+
 ## Quick checks
 
 From this repository directory run `python3 validation/check_ufo.py`. This tests import, the Majorana HNL declaration and vertex inventory; it is not a loop-matching check.
