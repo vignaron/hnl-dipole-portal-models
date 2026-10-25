@@ -2,7 +2,7 @@ M$ModelName = "dipole_GI";
 
 M$Information = {
   Authors      -> {"Natascia Vignaroli"},
-  Version      -> "0.1.0-dev",
+  Version      -> "1.0.0",
   Date         -> "25. 10. 2026",
   Institutions -> {"Universita' del Salento"},
   URLs         -> "https://github.com/vignaron/hnl-dipole-portal-models"
