@@ -79,8 +79,9 @@
     },
     {
       "file": "validation/photon-higgs-test.json",
-      "sha256": "f69774cb6e6e824019f54924f06e8159518a6c43add9fc370662d88ecedeb027",
-      "origin_role": "Recorded numerical contact-vertex check; not a new run"
+      "sha256": "8e1785bbab7e33795a0ddd978fcdb9379f15f4312d81528477d1ca609266be09",
+      "origin_role": "Recorded numerical contact-vertex check; personal source path replaced by portable provenance description. Numerical data unchanged; not a new run.",
+      "original_record_sha256": "f69774cb6e6e824019f54924f06e8159518a6c43add9fc370662d88ecedeb027"
     }
   ]
 }
