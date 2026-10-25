@@ -1,59 +1,18 @@
-(***************************************************************************************************************)
-(******                       This is the FeynRules mod-file for the Standard model                       ******)
-(******                                                                                                   ******)
-(******     Authors: N. Christensen, C. Duhr, B. Fuks                                                     ******)
-(******                                                                                                   ******)
-(****** Choose whether Feynman gauge is desired.                                                          ******)
-(****** If set to False, unitary gauge is assumed.                                                          ****)
-(****** Feynman gauge is especially useful for CalcHEP/CompHEP where the calculation is 10-100 times faster. ***)
-(****** Feynman gauge is not supported in MadGraph and Sherpa.                                              ****)
-(***************************************************************************************************************)
-
-(* ************************** *)
-(* *****  Information   ***** *)
-(* ************************** *)
 M$ModelName = "dipole_GI";
 
 M$Information = {
-  Authors      -> {"N. Christensen", "C. Duhr", "B. Fuks"}, 
-  Version      -> "1.4.7",
-  Date         -> "28. 09. 2016",
-  Institutions -> {"Michigan State University", "Universite catholique de Louvain (CP3)", "IPHC Strasbourg / University of Strasbourg"},
-  Emails       -> {"neil@pa.msu.edu", "claude.duhr@uclouvain.be", "benjamin.fuks@cnrs.in2p3.fr"},
-  URLs         -> "http://feynrules.phys.ucl.ac.be/view/Main/StandardModel"
+  Authors      -> {"Natascia Vignaroli"},
+  Version      -> "0.1.0-dev",
+  Date         -> "25. 10. 2026",
+  Institutions -> {"Universita' del Salento"},
+  URLs         -> "https://github.com/vignaron/hnl-dipole-portal-models"
 };
 
 FeynmanGauge = True;
 
-(* ************************** *)
-(* ***** NLO Variables ****** *)
-(******************************)
-
 FR$LoopSwitches = {{Gf, MW}};
 FR$RmDblExt = { ymb -> MB, ymc -> MC, ymdo -> MD, yme -> Me, 
    ymm -> MMU, yms -> MS, ymt -> MT, ymtau -> MTA, ymup -> MU};
-
-(* ************************** *)
-(* *****  Change  log   ***** *)
-(* ************************** *)
-
-(* v1.4.7: Index issue with the ghost Lagrangian (special thanks to S. Iwamoto *)
-(* v1.4.6: NLO variable added.                                               *)
-(* v1.4.5: Added widths for ghosts.                                          *)
-(* v1.4.4: Changed widths of goldstone bosons to be the same as for the W and Z bosons *)
-(* v1.4.3: Updated conventions for the symmetric structure constants of SU3. *)
-(* v1.4.2: Set FeynmanGauge=True as default again.                           *)
-(* v1.4: Added SU(2) representation.                                         *)
-(*       -> Modification in the field declarations (doublets are added)      *)
-(*       -> Modification in the Lagrangian (much simpler).                   *)
-(* v1.3: Added yukawa couplings for all fermions for gauge invariance.       *)
-(*       Added yukawa couplings for 1st generation fermions to Massless.rst. *)
-(*       Updated parameters to PDG 2010.                                     *)
-(* v1.2: Set FeynmanGauge=True as default.                                   *)
-(*       Set Gluonic ghosts to be included in both gauges.                   *)
-(* v1.1: Fixed yukawa couplings in Feynman gauge.                            *)
-(*       Changed yd[n] CKM[n,m] to yd[m] CKM[n,m].                           *)
-(*       Changed yu[n] Conjugate[CKM[m,n]] to yu[m] Conjugate[CKM[m,n]].     *)
 
 (* ************************** *)
 (* *****      vevs      ***** *)
