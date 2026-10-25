@@ -1,10 +1,20 @@
-# Before making the repository public
+# Version 1.0.0 checks and scope
 
-- Confirm BSM authorship, collaboration credits and desired contact information with the author.
-- Check the redistribution terms of the embedded SM source and generated support files; choose a compatible licence for original contributions and preserve upstream notices.
-- Distinguish inherited SM metadata from BSM release metadata in source and exports, preserving validated physics definitions and a record of any changes.
-- Document regeneration of both exports separately: the UFO source and patched FeynArts snapshot have distinct provenance; byte-identical joint regeneration has not been demonstrated.
-- Add portable benchmark cards and reproducible numerical check instructions, then rerun release checks from a clean directory.
-- Create a versioned release and archive it through Zenodo for a DOI; insert the actual repository/release links in the manuscript only after publication.
+Completed:
 
-Do not upload the research workspace, Mathematica installation, full MadGraph installation, notebooks with private paths, or intermediate loop checkpoints wholesale.
+- Source author, affiliation, date and model version updated; executable physics definitions unchanged.
+- FeynRules source, FeynCalc-patched FeynArts pair and Python-3-adapted UFO included.
+- File hashes verified against provenance.json.
+- UFO import verified: one Majorana HNL, 219 vertices in total, 144 containing the HNL.
+- Photon-Higgs contact amplitudes regenerated with MadGraph5_aMC 3.5.3 from an isolated copy: all 18 flavour/kinematic points agree with the recorded benchmark and independent Dirac trace; photon Ward and coefficient-interference checks pass.
+- Personal absolute paths removed from distributed records.
+- Usage instructions, input conventions and software citations included.
+
+Scope:
+
+- Numerical validation covers the photon-Higgs contact subset. It is not a new calculation of loop matching, a test of every vertex, or a general cross-generator validation.
+- The model is one Majorana HNL with universal lepton couplings, not three independent flavour-aligned HNLs or a Dirac HNL.
+- FeynArts files are the FeynCalc-patched pair used in the analysis.
+- Regeneration settings are documented; full regeneration of both exports has not been repeated for this release. Distributed exports are the working snapshots, with metadata or Python-compatibility changes described in the documentation.
+
+Publication sequence: finalize the licence for original contributions, make the repository public, tag the verified commit as v1.0.0, archive the release with Zenodo, and add the DOI to the citation metadata and manuscript. No DOI is implied before an actual archive record exists.
