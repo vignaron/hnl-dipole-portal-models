@@ -1,6 +1,6 @@
 # Gauge-invariant HNL dipole portal models
 
-Private release candidate for the FeynRules, FeynArts and UFO implementations used by Natascia Vignaroli. Not yet a public release. Repository: https://github.com/vignaron/hnl-dipole-portal-models. No release DOI has been assigned.
+FeynRules, FeynArts and UFO implementations of the gauge-invariant HNL dipole portal, prepared for version 1.0.0. Repository: https://github.com/vignaron/hnl-dipole-portal-models.
 
 ## Physics and conventions
 
@@ -19,7 +19,8 @@ This model is NOT an export of three independent flavour-aligned HNLs. At quadra
 - `ufo/dipole_GI_UFO/`: Python-3-adapted UFO used in the MadGraph validation.
 - `validation/`: recorded check and a portable import/inventory check.
 - `provenance.json`: hashes and origin roles of copied files.
-- `docs/RELEASE-CHECKLIST.md`: tasks before public release.
+- `docs/RELEASE-CHECKLIST.md`: release checks and scope.
+- `CHANGELOG.md`: version notes.
 
 See [Usage and provenance](docs/USAGE-AND-PROVENANCE.md) for parameter cards, regeneration settings, software versions and validation limits.
 
@@ -35,10 +36,10 @@ For FeynCalc/FeynArts, copy the model pair into the FeynArts `Models` directory,
 
 The dipole-portal extension was implemented by Natascia Vignaroli using FeynRules.
 
-The current manuscript is *Indirect probes of heavy neutral leptons through the dipole portal at FCC-ee* (in preparation). The direct-search theory is discussed in N. Vignaroli, *New avenues for the neutrino dipole portal exploration at the energy frontier*, JHEP 10 (2025) 125, arXiv:2507.01130. The present files are not claimed to be the byte-identical exports used for that publication.
+The current manuscript is *Indirect probes of heavy neutral leptons through the dipole portal at FCC-ee* (in preparation). The direct-search theory is discussed in N. Vignaroli, *New avenues for the neutrino dipole portal exploration at the energy frontier*, JHEP 10 (2025) 125, arXiv:2507.01130. These models were used in the analyses presented in the associated publications.
 
 ## Validation scope
 
 The reproducible MadGraph test (`validation/reproduce_photon_higgs.py`) checks nu gamma -> N h against an independent numerical Dirac trace at 18 kinematic/flavour points, including photon transversality and CB/CW interference. It does not certify every exported vertex, a full FeynArts/UFO comparison or loop counterterms. No new validation result is inferred from packaging.
 
-A redistribution licence and corrected release metadata must be finalized before public release; no blanket licence is assigned to inherited third-party content in this candidate.
+Software citations: FeynRules 2.0, [arXiv:1310.1921](https://arxiv.org/abs/1310.1921); FeynArts, [hep-ph/0012260](https://arxiv.org/abs/hep-ph/0012260); FeynCalc, [arXiv:2312.14089](https://arxiv.org/abs/2312.14089); UFO, [arXiv:1108.2040](https://arxiv.org/abs/1108.2040); MadGraph5_aMC@NLO, [arXiv:1405.0301](https://arxiv.org/abs/1405.0301).
