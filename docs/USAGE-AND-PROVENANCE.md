@@ -63,6 +63,14 @@ python3 -B validation/check_release.py
 
 The first checks import, the Majorana declaration and the inventory (219 total vertices, 144 containing N). The second checks file hashes and the internal consistency of the recorded numerical benchmark. Neither regenerates matrix elements nor recomputes loop matching.
 
+To recompute the tree contact test with NumPy and MadGraph installed:
+
+```text
+python3 -B validation/reproduce_photon_higgs.py --mg5 /absolute/path/to/MG5_aMC
+```
+
+This script imports the distributed UFO through MadGraph, generates the matrix element anew, and compares it to an independent numerical Dirac trace and the recorded benchmark. It uses a temporary model copy to avoid modifying the release. The output is written to `generated/photon-higgs-reproduced.json`. It checks 18 points, three neutrino flavours, six coefficient choices, photon transversality, and the spin average. On 25 October 2026 all checks passed with MG5_aMC 3.5.3; the maximum relative difference from the recorded nonzero values was zero in the tested environment. This is a fresh tree-level check of the photon-Higgs contact, not a loop or full-model validation. Do not invoke Python with `-O`, which disables assertions.
+
 `validation/photon-higgs-test.json` records an earlier independent check of nu gamma -> N h at 18 flavour/kinematic points: a Dirac-trace comparison, the photon Ward identity, coefficient interference and scaling. At M_N=200 GeV, sqrt(s)=400 GeV, cos(theta)=-0.6, C_B=1 TeV^-2 and C_W=0, the recorded squared amplitude is 0.0010089498699128049, versus 0.0010089498699128044 from the independent trace. The spin average denominator is 4; this must be accounted for when comparing to a beam with only the physical active-neutrino helicity. This validates the photon-Higgs contact subset, not every vertex or the loop analysis.
 
 ## Credits and redistribution status
