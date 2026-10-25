@@ -4,7 +4,7 @@
 
 The model contains one Majorana HNL (PDG 2000), real dipole coefficients universal across three lepton flavours, and the Higgs/Goldstone and non-Abelian interactions implied by the electroweak-invariant operators. It is not a three-HNL flavour-aligned export. See the README for the limited equivalence of diagonal pole observables.
 
-The original working environment used Mathematica 14.0 on macOS ARM, FeynRules 2.3.49, FeynCalc 10.2.1 with patched FeynArts 3.12, and MadGraph5_aMC@NLO 3.5.3. These are provenance statements, not a promise of compatibility with every other version. The FeynRules release metadata version 0.1.0-dev labels this model candidate, not the FeynRules package or the inherited SM version.
+The original working environment used Mathematica 14.0 on macOS ARM, FeynRules 2.3.49, FeynCalc 10.2.1 with patched FeynArts 3.12, and MadGraph5_aMC@NLO 3.5.3. These are provenance statements, not a promise of compatibility with every other version. The FeynRules release metadata version 1.0.0 labels this model release, not the FeynRules package or the inherited SM version.
 
 ## Use the distributed UFO
 
@@ -73,10 +73,8 @@ This script imports the distributed UFO through MadGraph, generates the matrix e
 
 `validation/photon-higgs-test.json` records an earlier independent check of nu gamma -> N h at 18 flavour/kinematic points: a Dirac-trace comparison, the photon Ward identity, coefficient interference and scaling. At M_N=200 GeV, sqrt(s)=400 GeV, cos(theta)=-0.6, C_B=1 TeV^-2 and C_W=0, the recorded squared amplitude is 0.0010089498699128049, versus 0.0010089498699128044 from the independent trace. The spin average denominator is 4; this must be accounted for when comparing to a beam with only the physical active-neutrino helicity. This validates the photon-Higgs contact subset, not every vertex or the loop analysis.
 
-## Credits and redistribution status
+## Credit
 
-The dipole extension is by Natascia Vignaroli, Universita' del Salento. The incorporated SM implementation is credited to N. Christensen, C. Duhr and B. Fuks (SM model version 1.4.7). UFO support files retain their individual author notices, including C. Duhr for function_library.py and O. Mattelaer for write_param_card.py. Generated-export metadata may still describe the inherited SM; it is preserved as historical provenance.
+The dipole-portal extension was implemented by Natascia Vignaroli using FeynRules.
 
-The local files inspected do not supply an explicit redistribution licence covering all inherited components. This candidate therefore does not assign a blanket licence to those components. Before public release, clarify their applicable terms and select the licence for original contributions. This is a release-documentation issue, not a change to the physics or validation results.
-
-Official resources: https://feynrules.irmp.ucl.ac.be/ and https://feynrules.irmp.ucl.ac.be/wiki/StandardModel .
+Please cite the associated publications and the software references listed in the README. Individual notices in support files are retained.
