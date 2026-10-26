@@ -43,3 +43,7 @@ The current manuscript is *Indirect probes of heavy neutral leptons through the 
 The reproducible MadGraph test (`validation/reproduce_photon_higgs.py`) checks nu gamma -> N h against an independent numerical Dirac trace at 18 kinematic/flavour points, including photon transversality and CB/CW interference. It does not certify every exported vertex, a full FeynArts/UFO comparison or loop counterterms. No new validation result is inferred from packaging.
 
 Software citations: FeynRules 2.0, [arXiv:1310.1921](https://arxiv.org/abs/1310.1921); FeynArts, [hep-ph/0012260](https://arxiv.org/abs/hep-ph/0012260); FeynCalc, [arXiv:2312.14089](https://arxiv.org/abs/2312.14089); UFO, [arXiv:1108.2040](https://arxiv.org/abs/1108.2040); MadGraph5_aMC@NLO, [arXiv:1405.0301](https://arxiv.org/abs/1405.0301).
+
+## Licence
+
+The original contributions are provided under the MIT licence; see [LICENSE](LICENSE) for its scope. Notices in third-party support files are retained.
