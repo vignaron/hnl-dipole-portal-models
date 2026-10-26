@@ -51,3 +51,7 @@ The original contributions are provided under the MIT licence; see [LICENSE](LIC
 ## Archived release
 
 Version 1.0.0 is archived on Zenodo: [doi:10.5281/zenodo.23667622](https://doi.org/10.5281/zenodo.23667622). Please cite the archived model release and the associated physics publication.
+
+## FeynCalc symbol conventions
+
+In the analysis scripts, the weak dipole coefficient is named `CWDip` before `FCFAConvert`: a symbol named `CW` may otherwise be interpreted as the cosine of the weak mixing angle. This internal script name does not change the coefficient normalization or the UFO parameter-card entries described above.
