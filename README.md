@@ -47,3 +47,7 @@ Software citations: FeynRules 2.0, [arXiv:1310.1921](https://arxiv.org/abs/1310.
 ## Licence
 
 The original contributions are provided under the MIT licence; see [LICENSE](LICENSE) for its scope. Notices in third-party support files are retained.
+
+## Archived release
+
+Version 1.0.0 is archived on Zenodo: [doi:10.5281/zenodo.23667622](https://doi.org/10.5281/zenodo.23667622). Please cite the archived model release and the associated physics publication.
