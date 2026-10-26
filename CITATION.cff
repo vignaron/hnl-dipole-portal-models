@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite the associated physics paper and the versioned model release when available."
+message: "Please cite the associated physics paper and this versioned model release."
 type: software
 title: "Gauge-invariant HNL dipole portal models"
 authors:
@@ -9,3 +9,5 @@ abstract: "FeynRules source and FeynArts/UFO exports for a Majorana HNL with gau
 repository-code: "https://github.com/vignaron/hnl-dipole-portal-models"
 version: "1.0.0"
 date-released: "2026-10-26"
+doi: "10.5281/zenodo.23667622"
+url: "https://doi.org/10.5281/zenodo.23667622"
